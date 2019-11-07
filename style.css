@@ -1,0 +1,163 @@
+body {
+	  background-color:black;
+	  color:white;
+	 }
+
+.link {
+ color:red;
+ text-decoration: none; 
+}
+
+.content { 
+/*display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 900px 900px;
+  grid-gap: 1em; */
+  padding:10px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+
+.img1 img { 
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+/*background-color: yellow;*/
+
+}
+
+.img1:hover {
+transform: scale(1.25);
+margin:60px;
+padding:30px;
+}
+
+.img2 img {
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+}
+
+.img2:hover {
+ transform: scale(1.25);
+ margin:60px;
+padding:30px;
+}
+
+.img3 img {
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+}
+
+.img3:hover {
+  transform: scale(1.25);
+ margin:60px;
+padding:30px;
+}
+
+.img4 img { 
+height:600px;
+width:450px;
+margin:20px;
+transition: transform .3s; /* Animation */
+ }
+
+ .img4:hover {
+  transform: scale(1.25);
+ margin:60px;
+padding:30px;
+}
+
+.img5 img { 
+height:600px;
+max-width: 100%;
+margin:20px;
+transition: transform .3s; /* Animation */
+}
+
+.img5:hover {
+  transform: scale(1.25);
+ margin:60px;
+padding:30px;
+}
+
+img {width:100%;}
+
+h1 {
+margin:20px;
+font-size:70px;
+text-align:center;
+font-family:"Benton Sans", San-Serif;
+font-style: Normal;
+font-weight: Bold;
+}
+
+h1:hover { 
+/* mouse over link */
+color:white;
+text-shadow:8px 9px red;
+text-decoration: underline;
+}
+
+h2 { 
+/*margin:20px;
+margin-top:20px;*/
+padding:10px;
+width:70%;
+margin: 0 auto;
+font-size:30px;
+text-align:center;
+font-family:"Benton Sans", San-Serif;
+font-style: normal;
+font-weight: normal;
+}
+
+.box {
+background-color: white;
+width:75%;
+margin: 0 auto;
+}
+
+h3{
+text-decoration: underline;
+text-align:center;
+font-size:30px;;
+color:red;
+padding:50px;
+width:70%;
+margin: 0 auto;
+font-style: bold;
+font-weight: bold;
+/*transition: transform .3s; /* Animation */*/
+}
+
+h3:hover {
+ text-shadow:4px 6px black;
+}
+
+h4 {
+text-align:center;
+font-size:25px;
+color:red;
+letter-spacing: 2px;
+padding:10px;
+width:70%;
+margin: 0 auto;
+font-style: lighter;
+font-weight: lighter;
+}
+h4:hover {
+ transform: scale(1.25);
+}
+
+ p {
+ margin:20px;
+ font-family:"Benton Sans", San-Serif;
+font-style: normal;
+ }
